@@ -1,0 +1,52 @@
+/* Container with a red border */
+.container {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Heading with its own red border */
+.container h1 {
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph with its own red border */
+.container p {
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* List items styled with red borders */
+.container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.container ul li {
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* No border for the paragraph with id btn */
+#btn {
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Add border to the link and button inside the btn paragraph */
+.btn a {
+    border: 2px solid red;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.bordered-text {
+    border: 2px solid red;
+    padding: 2px;
+}
