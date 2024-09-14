@@ -28,7 +28,7 @@
 .container ul li {
     border: 2px solid red;
     padding: 10px;
-    margin-bottom: 10px;
+    
 }
 
 /* No border for the paragraph with id btn */
