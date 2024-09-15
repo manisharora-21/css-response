@@ -137,6 +137,18 @@ header {
   .image-box a:hover {
     background-color: #0056b3; /* Adds a darker hover effect */
   }
+  .image-frame {
+    padding: 15px; /* Creates space inside the border */
+    background-color: white; /* White background for the box */
+    border: 1px solid #ddd; /* Light grey border around the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    border-radius: 8px; /* Slight rounding of the corners */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+  }
+
+  .image-frame:hover {
+    transform: scale(1.05); /* Slight zoom on hover for effect */
+  }
 
 
   .footer-title {
