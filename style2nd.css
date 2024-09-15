@@ -149,9 +149,17 @@ header {
   .image-frame:hover {
     transform: scale(1.05); /* Slight zoom on hover for effect */
   }
+  .image-box h2 {
+    margin-bottom: 30px;
+    border: 2px solid #007bff; /* Correct border syntax */
+    padding: 5px; /* Optional: Adds space between text and border */
+    display: inline-block; /* Optional: Adjusts the element to fit the border neatly */
+}
+
 
 
   .footer-title {
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
